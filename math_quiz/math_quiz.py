@@ -75,6 +75,7 @@ def math_quiz():
         # Generate the string and result of calculation.
         problem, answer = computeByOperator(number1, number2, operator)
         print(f"\nQuestion: {problem}")
+        
         # Get the answer of the user.
         userAnswer = input("Your answer: ")
         userAnswer = int(userAnswer)

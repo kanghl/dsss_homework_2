@@ -13,7 +13,7 @@ class TestMathGame(unittest.TestCase):
             self.assertTrue(min_val <= rand_num <= max_val)
 
     def test_function_B(self):
-        # Test if random operator generated are within the specified range
+        # Test if random operator generated are within the specified range 
         operators = ['+', '-', '*']
         for _ in range(1000):  # Test the random operator
             rand_operator = randomOperator()
