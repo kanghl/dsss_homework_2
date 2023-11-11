@@ -1,7 +1,6 @@
 import unittest
 from math_quiz import randomInteger, randomOperator, computeByOperator
 
-
 class TestMathGame(unittest.TestCase):
 
     def test_function_A(self):
